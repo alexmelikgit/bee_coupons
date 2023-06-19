@@ -1,0 +1,53 @@
+.beebody{
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.beeinput-style{
+    width: calc(50% - 100px);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.beeinput-style select{
+    min-width: 100%;
+    display: block;
+}
+.beeinput-style label{
+    padding-bottom: 5px;
+}
+.striped.coupons-table>tbody>.coupon-row{
+    cursor: pointer;
+}
+.striped.coupons-table>tbody>.coupon-row:hover{
+   background-color: #c8cdcd;
+}
+.dataTables_length select{
+    min-width: 50px;
+}
+.dataTables_length{
+    margin-bottom: 15px;
+}
+#couponsTable_wrapper{
+    margin-top: 25px;
+}
+#couponsType button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#couponsType button:hover{
+    color: gray;
+}
+#couponsTable th{
+    padding: 10px;
+    text-align: center;
+}
+#couponsTable td{
+    text-align: center;
+}
+#couponsTable{
+    margin-bottom: 15px;
+}
